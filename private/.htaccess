@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Restricted access"
+AuthUserFile "BIT607_Ax3_CSampson_5021880\.htpasswd"
+Require valid-user
