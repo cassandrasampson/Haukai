@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Statement</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Menu</title>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-187230205-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-187230205-1");
+    </script>
+    <script>
+      $(function () {
+        $(".header-placeholder").load("nav.html");
+      });
+      $(function () {
+        $(".footer-placeholder").load("footer.html");
+      });
+    </script>
+  </head>
+  <body>
+    <div class="flex-container">
+      <header>
+        <div class="header-placeholder"></div>
+      </header>
+      <section class="banner" id="banner">
+        <h1>Privacy Statement</h1>
+        <img src="./images/key.jpg" alt="key" />
+      </section>
+      <main>
+        <div class="row">
+          <p>
+            Personal information that you provide us will be used to contact you
+            if necessary, for responding to your specific inquiry, and to send
+            products to you.
+            <br />
+            We respect your privacy. We will not disclose any personal
+            information to anyone other than those in our Restaurant who need to
+            know for the purpose of providing you with a wonderful dining
+            experience and service.
+            <br />
+            We collect your name, address, email and phone numbers.
+            <br />
+            We collect this information so we can provide you with wonderful
+            service, and we obtain the information from forms you fill in and
+            from website cookies.
+            <br />
+            Any information that we hold about you is available for you to view
+            and correct at any reasonable time.
+            <br />
+            If you choose not to give us information, this may impact the
+            service we can provide.
+            <br />
+            Don't worry! We won't share your information and it'll only be used
+            as described in this privacy statement.
+          </p>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <div class="footer-placeholder"></div>
+    </footer>
+  </body>
+</html>
